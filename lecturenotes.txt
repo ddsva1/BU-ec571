@@ -1,0 +1,66 @@
+Lecture 1: 2026-09-14
+Class schedule: 
+Lecture Mon Wed 6.30 to 8.15 pm PHO 205
+Recitation(?) Fri 2.30 to 4.15 pm PHO 305. TA solving practice problems.
+
+Course material on blackboard, Forum on Piazza.
+
+Coursework 0 completed (on Gradescope)
+
+Textbook Digital Integrated Circuits (acquired)
+
+Research papers on ACM digital library or IEEE Explore.
+
+Prof Ajay Joshi, joshi@bu.edu
+Office Hours by appt PHO 334
+
+Yang Wu, TA, yangwu@bu.edu
+On zoom, PHO 305
+
+Thinh Phuc Nguyen, ptnguy01@bu.edu
+grader/lab assistant, no office hours
+
+3 midterm exams, 20% each.
+Topics build on those studied earlier in the semester, so information will be built upon
+Oct 14 2026
+Nov 11 2026
+Dec 9 2026
+
+1 Project, 16%.
+Details discussed in class.
+
+HW, cumulatively 24%
+
+Reading textbook chapters detailed in syllabus also.
+
+Class participation very important.
+
+Ask how the exams will be handled
+ - mention DASS info after class
+ - mention name stuff after class
+
+VTC craft:
+regenerative property - chain of inverters.
+V-in and V-out, compared with V-out and V-in (graphed on X and Y.)
+
+Power Dissipation for circuit
+Instantaneous power Dissipation
+V(T)*I(T)
+T=time
+V=volt
+I=Current
+
+Peak power = VDD*Ipeak
+V subscript DD = ??
+Ipeak = peak of current
+
+Average power =1/Tau * t to t+tau Integral P(time) dtime
+
+
+4 metrics for all circuits:
+Power
+Performance
+Size/Area
+Cost
+
+
