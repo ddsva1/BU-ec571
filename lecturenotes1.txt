@@ -89,4 +89,65 @@ integrate from 0 to t time (Vdd*Idd)(time t) dt
 = Integrate from 0 to Vdd(Vdd Capacitor L (dVout/dt)) dt
 = Cl*Vdd^2
 
+Energy stored in the capacitor:
+E = Integrate from 0 to t time (Vout C * d Vout/d t) d time
+= Integrate from 0 to Vdd (Vout C) d Vout
+= 1/2 C*Vdd^2
+
+if capacitor charged and discharged 10 times, total amount of energy pulled from power supply is 10 C Vdd^2.
+When discharging, no power pulled from power supply.
+Assuming that charge and discharge is regular and happens 1:1 for amounts of time
+
+Static Complementary CMOS logic.
+PMOS pull up network = pulls up. (Pos?)
+
+NMoS pull down network = pulls down (Neg?)
+
+NMOS PMOS pair per input. dual logic network.
+
+series becomes parallel, parallel becomes series in circuits.
+
+PUN and PDN: pull up network and pull down network.
+
+FOR ALL EXAMPLES BELOW SEE IMAGES SAVED
+NAND2 update using schedule
+A B | X
+0 0 | 1
+0 1 | 1
+1 0 | 1
+1 1 | 0
+4 transistors in design.
+
+NOR2 update using schedule
+A B | X
+0 0 | 1
+0 1 | 0
+1 0 | 0
+1 1 | 0
+4 transistors in design.
+
+F=NOT(D or (A and (B or C)))
+
+F=((P+Q)*(R+S))'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
