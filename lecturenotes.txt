@@ -63,4 +63,30 @@ Performance
 Size/Area
 Cost
 
+Power*(minimise)Delay:
+Constrained by area.
+(Power can't be 0!)
+Power = energy per second
+Delay = second
+
+i/s * s = I (current or energy used.)
+Very Bad Metric!!!!!! Don't use this!
+
+Alternative metric: Energy*delay.
+I*time = an alright metric, because taking both things into account but cant be simplified.
+
+"energy is the amount of work we can do"
+rate of expending the energy doesn't matter as much as the total amount of energy needed.
+
+Energy*delay = energy-efficiency metric.
+Aiming for a balanced design, but priority is meeting the specifications required.
+
+
+Energy consumption in CMOS circuit: example.
+to calculate energy from the power source:
+integrate from 0 to t time (Vdd*Idd)(time t) dt
+
+= Integrate from 0 to Vdd(Vdd Capacitor L (dVout/dt)) dt
+= Cl*Vdd^2
+
 
