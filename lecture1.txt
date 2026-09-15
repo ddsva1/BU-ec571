@@ -162,6 +162,14 @@ area of cross section usually t*w ([t]*width)
 rho/t = Rsqn
 as designers we control length/width of the transistor.
 
+of course there are lower and upper limits for length and width and in fact all of these factors
+
+Total Delay (Tau high to low) = Rnmos* CL Load Capacitance.
+
+Vdd to 0.5Vdd (Ln(2)) <- ??
+
+Tau Low to High = Rpmos* CL load Capacitance
+
 
 
 
