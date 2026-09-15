@@ -130,6 +130,37 @@ F=NOT(D or (A and (B or C)))
 
 F=((P+Q)*(R+S))'
 
+Properties of SCL Static complementary logic:
+Full rail-to-rail swing at the output.
+
+Pmos pull up Vmos pull down
+Symmetric VTC
+No static power Dissipation - output connected to Vdd, pull down network off, so always connected to One Or Other. 
+ - doesnt happen in steady state, but when switching inputs can cause for a short time a short circuit.
+Propagation delay is function of capacitors and resistors of the transistors (also calls it Xtors).
+
+RC networks = resistor-capacitor circuit.
+
+VTC voltage transfer characteristic.
+
+Inverter delay optimization:
+Voltage In -> [!]  -> CapacitorL -> ground.
+
+Design the circuit (ckt) for drivign CapacitorL.
+Q = #inverter stages
+size of inverters
+G = minimise delay of the ckt
+
+R_NMOS = Rsqn(L/Wn)
+L = channel length
+Wn = width of transistor.
+Rsqn = Resistance, functions as transistor structure/manufacture.
+
+Resistance = Rho*L/A ie rho(material)* length/area of cross section.
+area of cross section usually t*w ([t]*width)
+
+rho/t = Rsqn
+as designers we control length/width of the transistor.
 
 
 
@@ -145,9 +176,4 @@ F=((P+Q)*(R+S))'
 
 
 
-
-
-
-
-
-
+Capacitor L (CL) = Large Load Capacitor.
