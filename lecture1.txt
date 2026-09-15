@@ -170,7 +170,8 @@ Vdd to 0.5Vdd (Ln(2)) <- ??
 
 Tau Low to High = Rpmos* CL load Capacitance
 
-
+0 to 1 transition should equal 1 to 0 transition.
+Tau HL = Tau LH
 
 
 
