@@ -146,7 +146,7 @@ VTC voltage transfer characteristic.
 Inverter delay optimization:
 Voltage In -> [!]  -> CapacitorL -> ground.
 
-Design the circuit (ckt) for drivign CapacitorL.
+Design the circuit (ckt) for driving CapacitorL.
 Q = #inverter stages
 size of inverters
 G = minimise delay of the ckt
