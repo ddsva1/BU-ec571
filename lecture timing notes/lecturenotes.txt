@@ -1,0 +1,49 @@
+TIMING - NOTES NOT ON SLIDES
+
+Flip flops connected by combinational logic.
+Flipflops connected by clock symbol.
+
+In Digital logic we have these sequential logic blocks over the chip
+how to guarantee we won't have race conditions?
+
+Latch parameters: See slides for diagram.
+T hold is measured from the negative edge of the clock. 
+This is because this is when the output gets locked (because the latch gets closed)
+
+T d-q is Time Data-to-Q-Delay
+
+Register parameters:
+Clock period
+T hold
+T setup
+T clk-Q
+
+(HE STARTS TO ANNOTATE NOW)
+Cycle time constraint: Cycle time of clock must be greater than time it takes 
+from output of 1 flipflop to the input of the other flipflop
+
+Time Clock To Q = time taken from clock positive edge to input capacitors finishing charging.
+
+Race margin or hold time (t hold) has to be less than Tcq1 + time of combinational block + shortest[??]
+
+Clock Uncertainties
+1- clock generation - can be subtle variations in the actual signal creation.
+2-device variations
+3-interconnect
+4
+5
+6
+7
+
+Clock Skew and Jitter.
+clock skew: spatial variation. different synced clock signals are out of skew, out of sync.
+it is the difference between clocks.
+
+clock jitter: the variation for one clock signal output - might be sped up or slowed down but in comparison to itself.
+
+skew = spatial effect, two flipflops
+jitter - temporal effect, one flip flop.
+
+positive skew: positive edge from 1 arrives before receiving edge at 2. (if flipflop1 before flipflop2)
+change at edge 1 on graph - sampled at edge 4.
+clock time larger, more relaxed.
